@@ -1,0 +1,13 @@
+Los pasos que debes seguir para ejecutar el compilador son:
+
+En Visual Studio Code tener todo en una carpeta los siguientes archivos:
+
+lexer.l
+parser.y
+ast.h
+main.cpp
+
+Que se pueden encontrar en las carpetas Backend y Frontend de este repositorio, una vez todo junto ejecutar el siguiente comando en la terminal de Vsc:
+g++ lexer.cpp parser.cpp main.cpp -o compilador.exe
+
+Y eso tendria que crear el archivo ejecutable
