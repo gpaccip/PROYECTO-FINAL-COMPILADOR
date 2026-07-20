@@ -1,0 +1,10 @@
+entero x;
+funcion_matematica f;
+funcion_matematica d;
+funcion_matematica i;
+x = 5;
+f = x ^ 2;
+d = derivar(f, x);
+i = integrar_indefinida(f, x);
+imprimir("La derivada es: ", d);
+imprimir("La integral es: ", i);
