@@ -1,0 +1,9 @@
+entero a;
+entero b;
+entero c;
+entero respuesta;
+leer(a);
+leer(b);
+leer(c);
+respuesta = a + b * c;
+imprimir("El resultado es: ", respuesta);
